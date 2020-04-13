@@ -1,0 +1,16 @@
+{
+    "name": "amina/quete_composer1",
+    "description": "Quete Composer 1",
+    "authors": [
+        {
+            "name": "AminaChakirDev",
+            "email": "amina.aitm@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+
+}
