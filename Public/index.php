@@ -2,7 +2,14 @@
 
 require "../vendor/autoload.php";
 
+$hello = new \App\Wcs\Hello();
 
-echo \App\Wcs\Hello::talk();
+echo $hello->talk();
+
+echo '<br>';
+
+$sayHello = new \HelloWorld\SayHello();
+
+echo $sayHello->world();
 
 
